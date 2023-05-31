@@ -12,13 +12,6 @@ const LoginPage: React.FC = () => {
         console.log('Password:', password);
     };
 
-    // const contentStyle: React.CSSProperties = {
-    //     textAlign: 'start',
-    //     minHeight: 120,
-    //     lineHeight: '120px',
-    //     color: '#fff',
-    // };
-
     return (
         <Space direction="vertical" size="middle" style={{ display: 'flex', margin: '200px 500px', }}>
             <Card title="Login" size="default">
@@ -61,9 +54,6 @@ const LoginPage: React.FC = () => {
                 </Form>
             </Card>
         </Space>
-        // <Space style={contentStyle}>
-
-        // </Space>
     )
 }
 

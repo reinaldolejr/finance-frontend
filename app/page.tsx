@@ -1,21 +1,14 @@
 'use client';
 import React from 'react';
-import {
-    BrowserRouter,
-    Routes,
-    Route
-} from "react-router-dom";
 import 'antd/dist/reset.css';
 
 import LoginPage from './pages/LoginPage';
+import  { Router } from 'next/router';
 
 const App: React.FC = () => {
+    
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<LoginPage />} />
-            </Routes>
-        </BrowserRouter>
+        <LoginPage />
     );
 };
 
